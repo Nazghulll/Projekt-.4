@@ -1,0 +1,105 @@
+﻿/* CSS Document */
+*{ margin: 0;
+   padding: 0;
+   font-family: Georgia;
+}
+
+header{
+  background-image: url(NEON.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: top;
+}
+
+ul{
+ float: left;
+ list-style-type:none;
+ margin-top: 10px;
+ margin-left: 10px;
+}
+
+ul li{
+ display: inline-block;
+}
+
+ul li a{
+ background-color: #000;
+ text-decoration:none;
+ color: #ffffff;
+ padding: 0px 15px;
+ border: 1.5px solid  transparent;
+}
+
+ul li a:hover{
+ background-color: #ffffff;
+ color: #000;
+}
+
+ul li.active a{
+ background-color: #ffffff;
+ color: #000;
+}
+
+.main menu{
+ max-width: 1200px;
+ margin: auto;
+}
+
+.tabell{
+ position: absolute;
+ top: 10%;
+ left: 2%;
+ right: 60%;
+ transform: translate(5%, 10%);
+}
+
+.tabell thead{
+ background-color: #000000;
+ color:#00ff00;
+ text-transform:uppercase;
+}
+
+.tabell h1{
+ background-color: #000000;
+ text-align: center;
+ color: #ffffff;
+ font-size: 35px;
+}
+
+.tabel{
+ position: absolute;
+ top: 10%;
+ left: 60%;
+ right: 5%;
+ transform: translate(5%, 10%);
+}
+
+.tabel h1{
+ background-color: #000000;
+ text-align: center;
+ color: #ffffff;
+ font-size: 35px;
+}
+
+tr:nth-child(2n+1) {
+background:#eee;
+}
+tr:nth-child(2n){
+background:#ddd;
+}
+
+th {
+padding:3px;
+text-align:left;
+background-color:#000000;
+}
+
+footer {
+  height: 50px;
+  font-size: 10px;
+  text-align: center;
+  padding: 3px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
